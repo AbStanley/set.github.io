@@ -1,3 +1,11 @@
+.image_full{
+	display:block;
+   }
+ 
+  .image_mobile{
+   display:none;
+  }
+
 @media only screen and (min-width: 768px) {
 	.nav-box {
 		display:block !important;
@@ -195,6 +203,13 @@
 	}
 }
 @media only screen and (max-width: 767px) {
+	.image_full{
+		display:none;
+	   }
+	 
+	   .image_mobile{
+		display:block;
+	   }
 	#header {
 		position: fixed;
 		top: 0;
@@ -354,6 +369,13 @@
 	}
 }
 @media only screen and (max-width: 575px) {
+	.image_full{
+		display:none;
+	   }
+	 
+	   .image_mobile{
+		display:block;
+	   }
 	.welcome-title {
 		font-size: 40px;
 	}
