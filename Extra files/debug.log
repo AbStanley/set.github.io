@@ -1,0 +1,6 @@
+[1011/165723.586:ERROR:settings.cc(430)] Settings version is not 5
+[1011/170723.602:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1011/202705.541:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: Not enough memory resources are available to process this command. (0x80070008)
+[1011/202705.542:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[1011/202705.542:ERROR:crash_report_exception_handler.cc(134)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[1011/202705.544:ERROR:process_info.cc(359)] UncheckedAllocate

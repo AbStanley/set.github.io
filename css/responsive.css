@@ -60,7 +60,8 @@
 		font-size:18px;
 	}
 	.owl-carousel .owl-item .client-img img {
-		max-width:80px;
+		max-width: 65px;;
+		
 	}
 	.gallery-section {
 		padding-top:10px;

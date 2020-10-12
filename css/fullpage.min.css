@@ -17,6 +17,30 @@ html.fp-enabled {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
+.img-text {
+  position: relative;
+  display: inline-block;  
+  padding: 50px;
+}
+.img-text .description {
+    position: absolute;
+    display: block; 
+    left: 0;
+    right: 0;
+    top: 84%;
+  }
+
+.img-text .text-over {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 70%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 40%; /* Set the width of the positioned div */
+}
+
 .fp-section {
     position: relative;
     -webkit-box-sizing: border-box;
