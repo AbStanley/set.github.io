@@ -546,6 +546,15 @@ a#logo {
   background-color: #fff;
   color: #1e1e1e;
 }
+.service-box .img{
+  align-content: center;
+}
+.service-box:hover {
+  -webkit-filter: brightness(0.3);
+  filter: brightness(0.3);
+  transition: all 0.5s ease;
+  }
+
 .service-box h3 {
   font-size:22px;
   font-weight:700;
