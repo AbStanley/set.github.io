@@ -21,6 +21,9 @@ html.fp-enabled {
   position: relative;
   display: inline-block;  
   padding: 50px;
+  margin-left: 10px;
+  
+  
 }
 .img-text .description {
     position: absolute;
@@ -119,7 +122,7 @@ html.fp-enabled {
 
 .fp-scrollable {
     overflow: hidden;
-    position: relative
+    position: relative;
 }
 
 .fp-scroller {
